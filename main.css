@@ -1,0 +1,107 @@
+body {
+    background:#FFE4C4;
+}
+
+aside{
+    float:left;
+    background: #DEB887;
+    width: 20%;
+    padding: 2.5%;
+    height: 100vh;
+    color: #fff;
+    border-right: 5px solid #A0522D;
+}
+
+aside img {
+    width:290px;
+    float:left;
+}
+
+aside .aesthetic {
+    font-size: 29px;
+    margin-left: 8px;
+    font-weight: bold;
+    position:relative;
+    top:+5px;
+}
+
+aside h3 {
+    margin-top:50px;
+    font-size:25px;
+    margin-left: 8px;
+}
+
+aside ul {list-style:none}
+aside ul li{
+    color: #fff;
+    display:block;
+    margin-top:14px;
+    font-size: 18px;
+    transition: transform .6s ease;
+}
+
+aside ul li:hover, aside ul a:hover {
+    text-decoration: none;
+    color: #A0522D;
+    transform: scale(1.05);
+}
+
+main .features {
+    float: left;
+    color: #A0522D;
+    margin-top: 90px;
+    text-align: center;
+    width: 75%;
+    margin-left: 60px;
+}
+
+.alert-warning{
+    float: left;
+    clear:both;
+    width: 1200px;
+    margin: 30px 10%;
+    text-align: left;
+    border-width:5px;
+    border-color: #A0522D;
+}
+
+form {
+    margin-left:32%;
+    width: 500px;
+    margin-top: 50px;
+}
+
+main .features {
+    text-decoration: none;
+}
+
+main .ghosts {
+    float: left;
+    color: #A0522D;
+    margin-top: 50px;
+    text-align: left;
+    width: 70%;
+    margin-left: 60px;
+}
+
+main .ghosts h1 {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 80px;
+    font-style: italic;
+}
+
+main .features ul {
+    margin-bottom: 80px;
+    margin-top: 50px;
+}
+
+main .features h1 {
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+main .ghosts h5 {
+    margin-bottom: 30px;
+    font-style: italic;
+}
